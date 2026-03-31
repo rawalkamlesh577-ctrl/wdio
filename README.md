@@ -1,6 +1,4 @@
-Got it — you’d like a **GitHub README** for a **WebdriverIO (wdio) repo**. To make it useful, I’ll draft a professional, structured template that you can adapt for your project. Here’s a solid starting point:
 
----
 
 # WebdriverIO Automation Framework 🚀
 
