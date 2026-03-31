@@ -1,6 +1,9 @@
-describe('Open YouTube and wait', () => {
-    it('should open youtube for 30 seconds', async () => {
-        await browser.url('https://www.youtube.com')
-        await browser.pause(1000)
+describe('Introduction to wdio basic features', () => {
+    it('searches for a product', async () => {
+        browser.url('https://ecommerce-playground.lambdatest.io/')
+        await $('input[name="search"]').setValue("iphone")
+        await $('button[type="submit"]').click()
+        await browser.pause(6000)
+
     })
 })
